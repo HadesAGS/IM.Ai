@@ -25,7 +25,8 @@
 
 - Verified access to `HadesAGS/IM.Ai` and initialized its `main` branch.
 - Completed a fresh read-only source audit: no detected secret signatures or local user-home paths; dependency manifest and lockfile match, and portable execution works without checkout-local configuration.
-- Prepared all 118 tracked source, test, documentation, and configuration files for upload. GitHub stores the application source; local or compatible server hosting is still required to run it.
+- Uploaded all 118 tracked source, test, documentation, and configuration files to `HadesAGS/IM.Ai` on `main` (application commit `b88386c`). Verified the remote Git tree exactly matches the local source, with the real `.env` and generated files excluded.
+- GitHub stores the application source; local or compatible server hosting is still required to run it. Live Ask/Edit still needs an OpenAI API key in the local `.env` or the hosting server's secret settings.
 
 ## Blocked
 
